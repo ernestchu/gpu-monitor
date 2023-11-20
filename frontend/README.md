@@ -1,14 +1,4 @@
-# gpuweb-ui
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# GPU Monitor Frontend
 
 ## Project Setup
 
@@ -22,8 +12,12 @@ npm install
 npm run dev
 ```
 
+The main implementation can be found at [src/components/GPUBoard.vue](src/components/GPUBoard.vue).
+
 ### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
+
+Further details can be found at [Vite](https://vitejs.dev) and [Vue.js](https://vuejs.org).
