@@ -12,7 +12,8 @@ npm install
 npm run dev
 ```
 
-The main implementation can be found at [src/components/GPUBoard.vue](src/components/GPUBoard.vue).
+- Specify the IP address of the backend by modifying `VITE_BACKEND=0.0.0.0:3000` in [.env](.env)
+- The main implementation can be found at [src/components/GPUBoard.vue](src/components/GPUBoard.vue).
 
 ### Compile and Minify for Production
 
