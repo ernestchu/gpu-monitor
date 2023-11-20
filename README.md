@@ -26,6 +26,6 @@ user's browerser
 1. Install [forever](https://www.npmjs.com/package/forever)
 ### Send GPU info & usage to the monitor server
 1. Specify the IP address of the monitor server that runs the backend by modifying `SERVER="0.0.0.0:3000/"` in [run-this-on-every-node.sh](run-this-on-every-node.sh)
-1. Run `forever start -c bash run-this-on-every-node.sh` to transmit data every 1 second in background
+1. Run `forever start -c bash run-this-on-every-node.sh` to transmit data every 1 second in background. (You can also use `bash run-this-on-every-node.sh` for debugging purpose. However you need to keep your terminal alive.)
 
 
